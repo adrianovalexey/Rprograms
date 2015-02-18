@@ -1,5 +1,5 @@
 require(stringr) ## импортируем библиотеку stringr в нашу программу
-polin <-function(x) {
+palin <-function(x) {
 
 ##x <- character()
 p <- tolower(x) ## сделаем все с маленькой буквы
@@ -27,9 +27,9 @@ t <-0 ##Проверочный счетчик
 
 	}
 if(t==chars)
-  print('И правда, это полиндром') 
+  print('И правда, это палиндром') 
 if(t!=chars)
-  print("Это не полиндром")
+  print("Это не палиндром")
 	
 
 }
